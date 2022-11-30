@@ -1,1 +1,14 @@
-<embed type="text/html" src="https://kitao.github.io/pyxel/wasm/launcher/?play=alderven.stars.stars" width="500" height="200">
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/pyxel.js"></script>
+  </head>
+
+  <body>
+    <pyxel-play
+      root="https://github.com/alderven/stars"
+      name="stars.pyxapp"
+      gamepad="enabled"
+    ></pyxel-play>
+  </body>
+</html>
