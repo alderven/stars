@@ -10,7 +10,6 @@ class App:
         # 1. Инициализируем приложение Pyxel
         pyxel.init(constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT, title=constants.TITLE, quit_key=pyxel.KEY_ESCAPE)
         pyxel.mouse(True)
-        pyxel.fullscreen(True)
 
         # 2. Создаём звёзды
         self.stars = Stars()
